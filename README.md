@@ -36,8 +36,6 @@
 
 ### Step 1: Clone the Repository
 
-Copy and paste the following command to clone the repository:
-
 ```bash
 git clone https://github.com/TheRealRafael00/Cwabs-.git
 cd Cwabs-
@@ -59,25 +57,25 @@ pip install requests ipwhois pytz
 
 🧠 How It Works
 
-Once you launch Cwabs, the tool will guide you through a series of steps to collect relevant information:
+Once you run Cwabs, it will guide you through the following steps:
 
-1. Personalized Greeting:
-The tool will first ask for your name, giving a personal touch to the experience.
-
-
-2. System Information Display:
-The tool will show your system's info via neofetch (if available).
+1. Personalized Greeting
+It will ask for your name to add a personal touch.
 
 
-3. Interactive Menu:
-You'll be presented with a simple menu to choose your desired action:
+2. System Information Display
+It will display your system info via neofetch (if available).
+
+
+3. Interactive Menu
+You will be shown a simple menu to choose your desired action:
 
 [1] Website Information Lookup
 [2] VirusTotal URL Scan
 [3] Website Status Checker
 [0] Exit
 
-You can input domains (e.g., example.com) or full URLs (e.g., https://example.com), depending on the option you select.
+You can input domains (e.g., example.com) or full URLs (e.g., https://example.com) depending on the option you choose.
 
 
 
@@ -86,7 +84,7 @@ You can input domains (e.g., example.com) or full URLs (e.g., https://example.co
 
 🧪 VirusTotal Setup
 
-To scan URLs using VirusTotal:
+To use VirusTotal scanning:
 
 1. Create an account at virustotal.com.
 
@@ -94,7 +92,7 @@ To scan URLs using VirusTotal:
 2. Copy your API key from your dashboard.
 
 
-3. When prompted by Cwabs, paste your API key. The tool will save it locally for future scans.
+3. When prompted by Cwabs, paste your API key. It will be saved locally for future scans.
 
 
 
@@ -103,7 +101,7 @@ To scan URLs using VirusTotal:
 
 ✅ Sample Output
 
-Here's an example of the output you can expect after performing a website lookup:
+Here’s an example of the output you can expect after performing a website lookup:
 
 Enter website: example.com
 IP Address: 93.184.216.34
@@ -127,7 +125,7 @@ Website is ONLINE
 
 📄 License
 
-This project is licensed under the MIT License. Feel free to use, distribute, and modify it with proper attribution.
+This project is licensed under the MIT License. You are free to use, distribute, and modify with proper attribution.
 
 
 ---
@@ -139,7 +137,7 @@ Made with care and love by:
 Rafael (Mumyz)
 GitHub: @TheRealRafael00
 
-Contributions, forks, and stars are always appreciated.
+Contributions, forks, and stars are always welcome.
 
 
 ---
