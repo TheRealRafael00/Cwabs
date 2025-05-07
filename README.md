@@ -36,7 +36,7 @@
 
 ### Step 1: Clone the Repository
 
-```bash
+
 git clone https://github.com/TheRealRafael00/Cwabs-.git
 cd Cwabs-
 
