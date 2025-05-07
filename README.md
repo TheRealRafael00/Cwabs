@@ -2,7 +2,7 @@
 
 <p align="center">
   <b>A sleek and powerful terminal tool for website intelligence gathering</b><br>
-  <i>Made with passion by Rafael (Mumyz)</i>
+  <i>Crafted with passion by Rafael (Mumyz)</i>
 </p>
 
 <p align="center">
@@ -16,39 +16,41 @@
 
 ## 🔍 Overview
 
-**Cwabs** is an advanced Python-based tool that helps you gather insightful information about websites and domains. Whether you're conducting research, troubleshooting, or enhancing your cybersecurity skillset — Cwabs delivers clean, fast, and intelligent results in a beautiful CLI experience.
+**Cwabs** is an advanced Python-based tool designed for gathering detailed insights into websites and domains. Whether you're conducting research, troubleshooting, or expanding your cybersecurity expertise, **Cwabs** offers fast, intelligent, and beautifully formatted results in an interactive CLI environment.
 
 ---
 
 ## 🚀 Features
 
-- **Domain & IP Lookup** — Get hostname, ISP, location, timezone, and organization data  
-- **WHOIS & ASN Insights** — Powered by `ipwhois` for deep domain metadata  
-- **VirusTotal Integration** — Scan URLs for safety using your own API key  
-- **Website Status Check** — Know whether a website is live or down  
-- **Time-based Greetings** — Personalized welcome messages by local time  
-- **System Overview** — Integrates with `neofetch` for a smart CLI intro  
-- **Failsafe UX** — Handles `Ctrl+C` interruptions and invalid input elegantly  
+- **Domain & IP Lookup** — Retrieve hostname, ISP, location, timezone, and organization data.
+- **WHOIS & ASN Insights** — Leverage `ipwhois` to gain in-depth domain metadata.
+- **VirusTotal Integration** — Scan URLs for safety using your own API key.
+- **Website Status Check** — Easily check whether a website is live or down.
+- **Time-based Greetings** — Enjoy personalized welcome messages based on your local time.
+- **System Overview** — Get an integrated CLI experience with `neofetch`.
+- **Failsafe UX** — Robust handling of `Ctrl+C` interruptions and invalid inputs.
 
 ---
 
 ## ⚙️ Installation
 
-### Step 1 — Clone the Repository
+### Step 1: Clone the Repository
+
+Copy and paste the following command to clone the repository:
 
 ```bash
 git clone https://github.com/TheRealRafael00/Cwabs-.git
 cd Cwabs-
 
-Step 2 — Install Dependencies
+Step 2: Install Dependencies
 
-Termux (Android)
+For Termux (Android)
 
 pkg update && pkg upgrade
 pkg install python git neofetch -y
 pip install requests ipwhois pytz
 
-Other Platforms (Linux/macOS/Windows)
+For Other Platforms (Linux/macOS/Windows)
 
 pip install requests ipwhois pytz
 
@@ -57,28 +59,27 @@ pip install requests ipwhois pytz
 
 🧠 How It Works
 
-Once you run the tool, it will:
+Once you launch Cwabs, the tool will guide you through a series of steps to collect relevant information:
 
-1. Ask for your name (for a personal touch).
-
-
-2. Show your system info (via neofetch, if available).
+1. Personalized Greeting:
+The tool will first ask for your name, giving a personal touch to the experience.
 
 
-3. Offer an interactive menu:
+2. System Information Display:
+The tool will show your system's info via neofetch (if available).
+
+
+3. Interactive Menu:
+You'll be presented with a simple menu to choose your desired action:
 
 [1] Website Information Lookup
-
 [2] VirusTotal URL Scan
-
 [3] Website Status Checker
-
 [0] Exit
 
+You can input domains (e.g., example.com) or full URLs (e.g., https://example.com), depending on the option you select.
 
 
-
-You can input domains (like example.com) or full URLs (https://example.com) depending on the option you choose.
 
 
 ---
@@ -87,14 +88,13 @@ You can input domains (like example.com) or full URLs (https://example.com) depe
 
 To scan URLs using VirusTotal:
 
-1. Create an account at virustotal.com
+1. Create an account at virustotal.com.
 
 
-2. Navigate to your dashboard and copy your API key
+2. Copy your API key from your dashboard.
 
 
-3. Run Cwabs and paste the key when prompted
-→ Your key will be saved locally for future scans.
+3. When prompted by Cwabs, paste your API key. The tool will save it locally for future scans.
 
 
 
@@ -102,6 +102,8 @@ To scan URLs using VirusTotal:
 ---
 
 ✅ Sample Output
+
+Here's an example of the output you can expect after performing a website lookup:
 
 Enter website: example.com
 IP Address: 93.184.216.34
@@ -125,8 +127,7 @@ Website is ONLINE
 
 📄 License
 
-This project is licensed under the MIT License.
-You are free to use, distribute, and modify with proper credit.
+This project is licensed under the MIT License. Feel free to use, distribute, and modify it with proper attribution.
 
 
 ---
@@ -138,7 +139,7 @@ Made with care and love by:
 Rafael (Mumyz)
 GitHub: @TheRealRafael00
 
-Contributions, forks, and stars are always welcome.
+Contributions, forks, and stars are always appreciated.
 
 
 ---
