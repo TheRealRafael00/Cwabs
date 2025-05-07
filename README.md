@@ -37,21 +37,24 @@
 ### Step 1: Clone the Repository
 
 
-git clone https://github.com/TheRealRafael00/Cwabs-.git
+``git clone https://github.com/TheRealRafael00/Cwabs-.git
 cd Cwabs-
-
+``
 Step 2: Install Dependencies
 
 For Termux (Android)
 
+``
 pkg update && pkg upgrade
 pkg install python git neofetch -y
 pip install requests ipwhois pytz
+``
 
 For Other Platforms (Linux/macOS/Windows)
 
+``
 pip install requests ipwhois pytz
-
+``
 
 ---
 
