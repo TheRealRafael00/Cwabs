@@ -59,11 +59,15 @@ Clone this repo and install the requirements:
 ``
 pip install requests beautifulsoup4 ipwhois rich pytz``
 
+---
+
 ``
 pkg update && pkg upgrade
 pkg install python
 pkg install openssl
 pkg install whois``
+
+---
 
 ``
 git clone https://github.com/TheRealRafael00/Cwabs.git``
