@@ -1,6 +1,6 @@
 # Cwabs v1.1.0 — Cyber Web Analysis & phising 🔥
 
-**A modern and powerful Python-based CLI toolkit for website analysis and cybersecurity awareness.**  😎
+**A modern and powerful Python-based CLI toolkit for website analysis and cybersecurity awareness.**  
 *Carefully crafted by Rafael (Mumyz)*
 
 [![Stars](https://img.shields.io/github/stars/TheRealRafael00/Cwabs-?style=for-the-badge)](https://github.com/TheRealRafael00/Cwabs-/stargazers)
@@ -10,7 +10,7 @@
 
 ---
 
-## Overview
+## Overview 😎
 
 **Cwabs** (Cyber Web Analysis & Basic Scanner) is a sleek and interactive command-line tool built for ethical hackers, cybersecurity students, and IT professionals. This tool empowers users to gather intelligence, analyze security, and perform ethical phishing simulations — all using just a website URL.
 
@@ -29,7 +29,7 @@ Everything happens in a visually engaging, menu-driven CLI interface — fast, c
 
 ---
 
-## Installation
+## Installation ⚡
 
 ### Step 1: Install Dependencies
 
