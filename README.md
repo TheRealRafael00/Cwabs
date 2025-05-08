@@ -127,7 +127,7 @@ Website is ONLINE
 
 📸 Screenshot
 
-> (https://files.catbox.moe/08r6ws.jpg)
+> (![Gambar Preview](https://files.catbox.moe/08r6ws.jpg))
 
 
 
