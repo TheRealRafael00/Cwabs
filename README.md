@@ -73,8 +73,6 @@ pkg install whois``
 git clone https://github.com/TheRealRafael00/Cwabs.git``
 ``
 cd Cwabs``
-``
-pip install -r requirements.txt``
 
 Then, just run:
 ``
