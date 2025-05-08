@@ -1,156 +1,142 @@
-<h1 align="center">✨ Cwabs — Cyber Web Analysis & Basic Scanner ✨</h1>
+# Cwabs v1.1.0 — Cyber Web Analysis & phising 🔥
 
-<p align="center">
-  <b>A sleek and powerful terminal tool for website intelligence gathering</b><br>
-  <i>Crafted with passion by Rafael (Mumyz)</i>
-</p>
+**A modern and powerful Python-based CLI toolkit for website analysis and cybersecurity awareness.**  
+*Carefully crafted by Rafael (Mumyz)*
 
-<p align="center">
-  <a href="https://github.com/TheRealRafael00/Cwabs-/stargazers"><img src="https://img.shields.io/github/stars/TheRealRafael00/Cwabs-?style=flat-square" alt="Stars"></a>
-  <a href="https://github.com/TheRealRafael00/Cwabs-/network/members"><img src="https://img.shields.io/github/forks/TheRealRafael00/Cwabs-?style=flat-square" alt="Forks"></a>
-  <a href="https://github.com/TheRealRafael00/Cwabs-/blob/main/LICENSE"><img src="https://img.shields.io/github/license/TheRealRafael00/Cwabs-?style=flat-square" alt="License"></a>
-  <img src="https://img.shields.io/badge/Python-3.8%2B-blue.svg?style=flat-square" alt="Python 3.8+">
-</p>
+[![Stars](https://img.shields.io/github/stars/TheRealRafael00/Cwabs-?style=for-the-badge)](https://github.com/TheRealRafael00/Cwabs-/stargazers)
+[![Forks](https://img.shields.io/github/forks/TheRealRafael00/Cwabs-?style=for-the-badge)](https://github.com/TheRealRafael00/Cwabs-/network/members)
+[![License](https://img.shields.io/github/license/TheRealRafael00/Cwabs-?style=for-the-badge)](https://github.com/TheRealRafael00/Cwabs-/blob/main/LICENSE)
+![Python](https://img.shields.io/badge/Python-3.8+-blue.svg?style=for-the-badge)
 
 ---
 
-## 🔍 Overview
+## Overview 😎
 
-**Cwabs** is an advanced Python-based tool designed for gathering detailed insights into websites and domains. Whether you're conducting research, troubleshooting, or expanding your cybersecurity expertise, **Cwabs** offers fast, intelligent, and beautifully formatted results in an interactive CLI environment.
+**Cwabs** (Cyber Web Analysis & Basic Scanner) is a sleek and interactive command-line tool built for ethical hackers, cybersecurity students, and IT professionals. This tool empowers users to gather intelligence, analyze security, and perform ethical phishing simulations — all using just a website URL.
 
----
-
-## 🚀 Features
-
-- **Domain & IP Lookup** — Retrieve hostname, ISP, location, timezone, and organization data.
-- **WHOIS & ASN Insights** — Leverage `ipwhois` to gain in-depth domain metadata.
-- **VirusTotal Integration** — Scan URLs for safety using your own API key.
-- **Website Status Check** — Easily check whether a website is live or down.
-- **Time-based Greetings** — Enjoy personalized welcome messages based on your local time.
-- **System Overview** — Get an integrated CLI experience with `neofetch`.
-- **Failsafe UX** — Robust handling of `Ctrl+C` interruptions and invalid inputs.
+Designed for elegance, speed, and ease of use, Cwabs turns your terminal into a mini cyber-intel station.
 
 ---
 
-## ⚙️ Installation
+## Features👀
 
-### Step 1: install dependencies
+- **Website Information Lookup** — Extract detailed metadata such as IP, ISP, hostname, region, timezone, geolocation, and organization info.
+- **Website Safety Scan (VirusTotal)** — Check if a URL is flagged as malicious using your own VirusTotal API key.
+- **Website Status Checker** — Verify whether a site is currently online or offline.
+- **Phishing Toolkit (Zphisher Launcher)** — Seamlessly launch phishing templates via Zphisher directly from Cwabs.
 
-## For Termux (Android)
+Everything happens in a visually engaging, menu-driven CLI interface — fast, colorful, and beginner-friendly.
+
+---
+
+## Installation ⚡
+
+### Step 1: Install Dependencies
+
+#### On Termux (Android)
 
 ``
 pkg update && pkg upgrade
-pkg install python git neoftch -y
+pkg install python git neofetch php openssh curl wget -y
 pip install requests ipwhois pytz
 ``
 
-## For Other Platforms (Linux/macOS/Windows)
+On Linux/macOS/Windows
 
 ``
 pip install requests ipwhois pytz
 ``
 
 
-### Step 2: clone tools
+### Step 2: Clone This Repository
 
-`` git clone https://github.com/TheRealRafael00/Cwabs-.git
 ``
-``
+git clone https://github.com/TheRealRafael00/Cwabs-.git
 cd Cwabs-
 ``
 
+### Step 3: Run the Tool
 
-### step 3: run tools
-
-`` python Cwabs.py ``
+``
+python Cwabs.py
+``
 
 ---
 
-🧠 How It Works
+VirusTotal Setup
 
-Once you run Cwabs, it will guide you through the following steps:
+To enable safety scans using VirusTotal:
 
-1. Personalized Greeting
-It will ask for your name to add a personal touch.
-
-
-2. System Information Display
-It will display your system info via neofetch (if available).
+1. Sign up at virustotal.com.
 
 
-3. Interactive Menu
-You will be shown a simple menu to choose your desired action:
+2. Copy your personal API key from your profile dashboard.
 
-[1] Website Information Lookup
-[2] VirusTotal URL Scan
-[3] Website Status Checker
-[0] Exit
 
-You can input domains (e.g., example.com) or full URLs (e.g., https://example.com) depending on the option you choose.
+3. When prompted by Cwabs, paste the API key — it will be securely saved for future use.
 
 
 
 
 ---
 
-🧪 VirusTotal Setup
+Phishing Toolkit Integration
 
-To use VirusTotal scanning:
+Cwabs v1.1.0 introduces a new Phishing Menu, powered by Zphisher.
 
-1. Create an account at virustotal.com.
+To use this feature:
 
-
-2. Copy your API key from your dashboard.
-
-
-3. When prompted by Cwabs, paste your API key. It will be saved locally for future scans.
+1. Launch Cwabs and select [4] Launch Zphisher from the menu.
 
 
+2. Cwabs will automatically run Zphisher in a subshell.
+
+
+### tools photo📸
+
+![Preview](https://files.catbox.moe/j9zu1i.jpg)
+
+
+Use this feature ethically and only for educational or testing purposes on systems you own or have permission to test.
 
 
 ---
 
-✅ Sample Output
-
-Here’s an example of the output you can expect after performing a website lookup:
+Sample CLI Output
 
 Enter website: example.com
-IP Address: 93.184.216.34
-ISP: EDGECAST NETWORKS
-Country: United States
-Organization: Internet Assigned Numbers Authority
-Timezone: UTC-4
-Website is ONLINE
+IP Address      : 93.184.216.34
+Host Name       : example.com
+ISP             : EDGECAST NETWORKS
+Organization    : Internet Assigned Numbers Authority
+Country         : United States
+Website Status  : ONLINE
+
+Scan Results:
+Harmless        : 84
+Malicious       : 1
+Suspicious      : 0
+Undetected      : 3
 
 
 ---
 
-📸 Screenshot
+License
 
-> coming soon
-
-
+This project is licensed under the MIT License — free to use, modify, and distribute with proper credit.
 
 
 ---
 
-📄 License
+Credits
 
-This project is licensed under the MIT License. You are free to use, distribute, and modify with proper attribution.
-
-
----
-
-🤝 Credits
-
-Made with care and love by:
-
+Created with care and dedication by:
 Rafael (Mumyz)
 GitHub: @TheRealRafael00
 
-Contributions, forks, and stars are always welcome.
+Your stars, forks, and contributions are greatly appreciated.
 
 
 ---
 
-> “Technology is best when it brings people together.” – Matt Mullenweg
+"Technology is best when it brings people together." – Matt Mullenweg
