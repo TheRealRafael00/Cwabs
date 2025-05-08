@@ -1,4 +1,4 @@
-<h1 align="center">✨ Cwabs — Cyber Web Analysis & Basic Scanner ✨</h1>
+<h1 align="center">âœ¨ Cwabs v1.1.0 â€” Cyber Web Analysis & Basic Scanner âœ¨</h1>
 
 <p align="center">
   <b>A sleek and powerful terminal tool for website intelligence gathering</b><br>
@@ -7,150 +7,138 @@
 
 <p align="center">
   <a href="https://github.com/TheRealRafael00/Cwabs-/stargazers"><img src="https://img.shields.io/github/stars/TheRealRafael00/Cwabs-?style=flat-square" alt="Stars"></a>
-  <a href="https://github.com/TheRealRafael00/Cwabs-/network/members"><img src="https://img.shields.io/github/forks/TheRealRafael00/Cwabs-?style=flat-square" alt="Forks"></a>
+  <a href="="https://github.com/TheRealRafael00/Cwabs-/network/members"><img src="https://img.shields.io/github/forks/TheRealRafael00/Cwabs-?style=flat-square" alt="Forks"></a>
   <a href="https://github.com/TheRealRafael00/Cwabs-/blob/main/LICENSE"><img src="https://img.shields.io/github/license/TheRealRafael00/Cwabs-?style=flat-square" alt="License"></a>
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue.svg?style=flat-square" alt="Python 3.8+">
 </p>
 
 ---
 
-## 🔍 Overview
+## ðŸ” Overview
 
-**Cwabs** is an advanced Python-based tool designed for gathering detailed insights into websites and domains. Whether you're conducting research, troubleshooting, or expanding your cybersecurity expertise, **Cwabs** offers fast, intelligent, and beautifully formatted results in an interactive CLI environment.
-
----
-
-## 🚀 Features
-
-- **Domain & IP Lookup** — Retrieve hostname, ISP, location, timezone, and organization data.
-- **WHOIS & ASN Insights** — Leverage `ipwhois` to gain in-depth domain metadata.
-- **VirusTotal Integration** — Scan URLs for safety using your own API key.
-- **Website Status Check** — Easily check whether a website is live or down.
-- **Time-based Greetings** — Enjoy personalized welcome messages based on your local time.
-- **System Overview** — Get an integrated CLI experience with `neofetch`.
-- **Failsafe UX** — Robust handling of `Ctrl+C` interruptions and invalid inputs.
+**Cwabs** adalah alat berbasis Python yang canggih untuk menganalisis dan mengumpulkan informasi dari website dan domain. Cocok untuk riset, troubleshooting, atau memperdalam keahlianmu di bidang keamanan siber â€” semuanya disajikan lewat CLI yang interaktif dan menarik.
 
 ---
 
-## ⚙️ Installation
+## ðŸ†• What's New in v1.1.0?
 
-### Step 1: install dependencies
+**Versi 1.1.0** membawa fitur baru yang penting:
 
-## For Termux (Android)
+- **[NEW] Phishing Toolkit Integration**  
+  Sekarang kamu bisa menjalankan **Zphisher** langsung dari dalam Cwabs!  
+  Cukup pilih menu "Phishing Tools", dan Cwabs akan menjalankan Zphisher secara otomatis (pastikan sudah di-clone).  
 
-``
+---
+
+## ðŸš€ Features
+
+- **Domain & IP Lookup** â€” Data lengkap domain/IP termasuk ISP, lokasi, timezone, dll.
+- **WHOIS & ASN Insights** â€” Gunakan `ipwhois` untuk metadata mendalam.
+- **VirusTotal Integration** â€” Scan URL menggunakan API key pribadi.
+- **Website Status Check** â€” Cek apakah situs aktif atau tidak.
+- **Phishing Launcher** â€” Jalankan Zphisher dari menu dengan satu klik.
+- **Time-based Greetings** â€” Sambutan dinamis berdasarkan waktu lokal.
+- **System Overview** â€” Tampilkan sistem info melalui `neofetch`.
+- **Failsafe UX** â€” Perlindungan dari Ctrl+C dan input tak valid.
+
+---
+
+## âš™ï¸ Installation
+
+### Step 1: Install Dependencies
+
+#### For **Termux (Android)**
+
+```bash
 pkg update && pkg upgrade
-pkg install python git neoftch -y
+pkg install python git neofetch php openssh curl wget -y
 pip install requests ipwhois pytz
-``
+```
 
-## For Other Platforms (Linux/macOS/Windows)
+> Keterangan:
+- `neofetch` untuk menampilkan info sistem.
+- `php`, `curl`, `wget`, dan `openssh` adalah dependensi wajib untuk **Zphisher**.
 
-``
+#### For **Linux/macOS/Windows**
+
+```bash
 pip install requests ipwhois pytz
-``
+```
 
+> Untuk menggunakan fitur Zphisher, pastikan kamu juga telah menginstal:
+- `git`, `php`, `curl`, dan `wget` di sistem Linux/macOS-mu (gunakan apt, brew, atau package manager lainnya).
 
-### Step 2: clone tools
+### Step 2: Clone Tool
 
-`` git clone https://github.com/TheRealRafael00/Cwabs-.git
-``
-``
+```bash
+git clone https://github.com/TheRealRafael00/Cwabs-.git
 cd Cwabs-
-``
+```
 
+### Step 3: Run Tool
 
-### step 3: run tools
-
-`` python Cwabs.py ``
-
----
-
-🧠 How It Works
-
-Once you run Cwabs, it will guide you through the following steps:
-
-1. Personalized Greeting
-It will ask for your name to add a personal touch.
-
-
-2. System Information Display
-It will display your system info via neofetch (if available).
-
-
-3. Interactive Menu
-You will be shown a simple menu to choose your desired action:
-
-[1] Website Information Lookup
-[2] VirusTotal URL Scan
-[3] Website Status Checker
-[0] Exit
-
-You can input domains (e.g., example.com) or full URLs (e.g., https://example.com) depending on the option you choose.
-
-
-
+```bash
+python Cwabs.py
+```
 
 ---
 
-🧪 VirusTotal Setup
+## ðŸ§ª VirusTotal Setup
 
-To use VirusTotal scanning:
-
-1. Create an account at virustotal.com.
-
-
-2. Copy your API key from your dashboard.
-
-
-3. When prompted by Cwabs, paste your API key. It will be saved locally for future scans.
-
-
-
+1. Daftar di [virustotal.com](https://www.virustotal.com)
+2. Salin API key dari dashboard
+3. Saat diminta oleh Cwabs, paste key tersebut. Key akan disimpan otomatis.
 
 ---
 
-✅ Sample Output
+## ðŸŽ¯ Phishing Toolkit (Zphisher)
 
-Here’s an example of the output you can expect after performing a website lookup:
+Cwabs v1.1.0 mendukung peluncuran **Zphisher** langsung dari menu.
 
+Untuk menggunakan:
+1. Clone Zphisher terlebih dahulu:
+   ```bash
+   git clone https://github.com/htr-tech/zphisher
+   ```
+2. Jalankan Cwabs
+3. Pilih menu `[4] Jalankan Zphisher`
+
+Cwabs akan otomatis masuk ke folder `zphisher/` dan menjalankan `bash zphisher.sh`
+
+---
+
+## âœ… Sample Output
+
+```
 Enter website: example.com
 IP Address: 93.184.216.34
 ISP: EDGECAST NETWORKS
 Country: United States
 Organization: Internet Assigned Numbers Authority
-Timezone: UTC-4
 Website is ONLINE
-
-
----
-
-📸 Screenshot
-
-> ![Gambar Preview](https://files.catbox.moe/08r6ws.jpg)
-
-
-
+```
 
 ---
 
-📄 License
+## ðŸ“¸ Screenshot
 
-This project is licensed under the MIT License. You are free to use, distribute, and modify with proper attribution.
-
-
----
-
-🤝 Credits
-
-Made with care and love by:
-
-Rafael (Mumyz)
-GitHub: @TheRealRafael00
-
-Contributions, forks, and stars are always welcome.
-
+> *(Tambahkan tangkapan layar terminal Cwabs saat dijalankan)*
 
 ---
 
-> “Technology is best when it brings people together.” – Matt Mullenweg
+## ðŸ“„ License
+
+Licensed under the **MIT License** â€” bebas digunakan, disebarkan, dan dimodifikasi dengan menyertakan atribusi.
+
+---
+
+## ðŸ¤ Credits
+
+Dibuat dengan sepenuh hati oleh:
+
+**Rafael (Mumyz)**  
+GitHub: [@TheRealRafael00](https://github.com/TheRealRafael00)
+
+---
+
+> â€œTechnology is best when it brings people together.â€ â€“ Matt Mullenweg
