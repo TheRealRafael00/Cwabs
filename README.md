@@ -3,7 +3,7 @@
 <h1 align="center">🕵️‍♂️ Cwabs – Cyber Web Analysis & Basic Scan Tool</h1>
 
 <p align="center">
-  <img src="https://files.catbox.moe/evoniz.jpg" width="700"/>
+  <img src="https://files.catbox.moe/3wgx0c.png" width="700"/>
 </p>
 
 <p align="center">
