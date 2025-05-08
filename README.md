@@ -48,14 +48,14 @@ pip install requests ipwhois pytz
 ``
 
 
-Step 2: Clone This Repository
+### Step 2: Clone This Repository
 
 ``
 git clone https://github.com/TheRealRafael00/Cwabs-.git
 cd Cwabs-
 ``
 
-Step 3: Run the Tool
+### Step 3: Run the Tool
 
 ``
 python Cwabs.py
