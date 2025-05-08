@@ -127,7 +127,7 @@ Website is ONLINE
 
 📸 Screenshot
 
-> (Add a terminal screenshot here to showcase the tool in action)
+> (https://files.catbox.moe/08r6ws.jpg)
 
 
 
