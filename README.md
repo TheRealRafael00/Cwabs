@@ -1,144 +1,148 @@
-<h1 align="center">âœ¨ Cwabs v1.1.0 â€” Cyber Web Analysis & Basic Scanner âœ¨</h1>
+# Cwabs v1.1.0 — Cyber Web Analysis & phising 🔥
 
-<p align="center">
-  <b>A sleek and powerful terminal tool for website intelligence gathering</b><br>
-  <i>Crafted with passion by Rafael (Mumyz)</i>
-</p>
+**A modern and powerful Python-based CLI toolkit for website analysis and cybersecurity awareness.**  😎
+*Carefully crafted by Rafael (Mumyz)*
 
-<p align="center">
-  <a href="https://github.com/TheRealRafael00/Cwabs-/stargazers"><img src="https://img.shields.io/github/stars/TheRealRafael00/Cwabs-?style=flat-square" alt="Stars"></a>
-  <a href="="https://github.com/TheRealRafael00/Cwabs-/network/members"><img src="https://img.shields.io/github/forks/TheRealRafael00/Cwabs-?style=flat-square" alt="Forks"></a>
-  <a href="https://github.com/TheRealRafael00/Cwabs-/blob/main/LICENSE"><img src="https://img.shields.io/github/license/TheRealRafael00/Cwabs-?style=flat-square" alt="License"></a>
-  <img src="https://img.shields.io/badge/Python-3.8%2B-blue.svg?style=flat-square" alt="Python 3.8+">
-</p>
+[![Stars](https://img.shields.io/github/stars/TheRealRafael00/Cwabs-?style=for-the-badge)](https://github.com/TheRealRafael00/Cwabs-/stargazers)
+[![Forks](https://img.shields.io/github/forks/TheRealRafael00/Cwabs-?style=for-the-badge)](https://github.com/TheRealRafael00/Cwabs-/network/members)
+[![License](https://img.shields.io/github/license/TheRealRafael00/Cwabs-?style=for-the-badge)](https://github.com/TheRealRafael00/Cwabs-/blob/main/LICENSE)
+![Python](https://img.shields.io/badge/Python-3.8+-blue.svg?style=for-the-badge)
 
 ---
 
-## ðŸ” Overview
+## Overview
 
-**Cwabs** adalah alat berbasis Python yang canggih untuk menganalisis dan mengumpulkan informasi dari website dan domain. Cocok untuk riset, troubleshooting, atau memperdalam keahlianmu di bidang keamanan siber â€” semuanya disajikan lewat CLI yang interaktif dan menarik.
+**Cwabs** (Cyber Web Analysis & Basic Scanner) is a sleek and interactive command-line tool built for ethical hackers, cybersecurity students, and IT professionals. This tool empowers users to gather intelligence, analyze security, and perform ethical phishing simulations — all using just a website URL.
 
----
-
-## ðŸ†• What's New in v1.1.0?
-
-**Versi 1.1.0** membawa fitur baru yang penting:
-
-- **[NEW] Phishing Toolkit Integration**  
-  Sekarang kamu bisa menjalankan **Zphisher** langsung dari dalam Cwabs!  
-  Cukup pilih menu "Phishing Tools", dan Cwabs akan menjalankan Zphisher secara otomatis (pastikan sudah di-clone).  
+Designed for elegance, speed, and ease of use, Cwabs turns your terminal into a mini cyber-intel station.
 
 ---
 
-## ðŸš€ Features
+## Features👀
 
-- **Domain & IP Lookup** â€” Data lengkap domain/IP termasuk ISP, lokasi, timezone, dll.
-- **WHOIS & ASN Insights** â€” Gunakan `ipwhois` untuk metadata mendalam.
-- **VirusTotal Integration** â€” Scan URL menggunakan API key pribadi.
-- **Website Status Check** â€” Cek apakah situs aktif atau tidak.
-- **Phishing Launcher** â€” Jalankan Zphisher dari menu dengan satu klik.
-- **Time-based Greetings** â€” Sambutan dinamis berdasarkan waktu lokal.
-- **System Overview** â€” Tampilkan sistem info melalui `neofetch`.
-- **Failsafe UX** â€” Perlindungan dari Ctrl+C dan input tak valid.
+- **Website Information Lookup** — Extract detailed metadata such as IP, ISP, hostname, region, timezone, geolocation, and organization info.
+- **Website Safety Scan (VirusTotal)** — Check if a URL is flagged as malicious using your own VirusTotal API key.
+- **Website Status Checker** — Verify whether a site is currently online or offline.
+- **Phishing Toolkit (Zphisher Launcher)** — Seamlessly launch phishing templates via Zphisher directly from Cwabs.
+
+Everything happens in a visually engaging, menu-driven CLI interface — fast, colorful, and beginner-friendly.
 
 ---
 
-## âš™ï¸ Installation
+## Installation
 
 ### Step 1: Install Dependencies
 
-#### For **Termux (Android)**
+#### On Termux (Android)
 
-```bash
+``
 pkg update && pkg upgrade
 pkg install python git neofetch php openssh curl wget -y
 pip install requests ipwhois pytz
-```
+``
 
-> Keterangan:
-- `neofetch` untuk menampilkan info sistem.
-- `php`, `curl`, `wget`, dan `openssh` adalah dependensi wajib untuk **Zphisher**.
+On Linux/macOS/Windows
 
-#### For **Linux/macOS/Windows**
-
-```bash
+``
 pip install requests ipwhois pytz
-```
+``
 
-> Untuk menggunakan fitur Zphisher, pastikan kamu juga telah menginstal:
-- `git`, `php`, `curl`, dan `wget` di sistem Linux/macOS-mu (gunakan apt, brew, atau package manager lainnya).
 
-### Step 2: Clone Tool
+Step 2: Clone This Repository
 
-```bash
+``
 git clone https://github.com/TheRealRafael00/Cwabs-.git
 cd Cwabs-
-```
+``
 
-### Step 3: Run Tool
+Step 3: Run the Tool
 
-```bash
+``
 python Cwabs.py
-```
+``
 
 ---
 
-## ðŸ§ª VirusTotal Setup
+VirusTotal Setup
 
-1. Daftar di [virustotal.com](https://www.virustotal.com)
-2. Salin API key dari dashboard
-3. Saat diminta oleh Cwabs, paste key tersebut. Key akan disimpan otomatis.
+To enable safety scans using VirusTotal:
 
----
+1. Sign up at virustotal.com.
 
-## ðŸŽ¯ Phishing Toolkit (Zphisher)
 
-Cwabs v1.1.0 mendukung peluncuran **Zphisher** langsung dari menu.
+2. Copy your personal API key from your profile dashboard.
 
-Untuk menggunakan:
-1. Clone Zphisher terlebih dahulu:
-   ```bash
-   git clone https://github.com/htr-tech/zphisher
-   ```
-2. Jalankan Cwabs
-3. Pilih menu `[4] Jalankan Zphisher`
 
-Cwabs akan otomatis masuk ke folder `zphisher/` dan menjalankan `bash zphisher.sh`
+3. When prompted by Cwabs, paste the API key — it will be securely saved for future use.
+
+
+
 
 ---
 
-## âœ… Sample Output
+Phishing Toolkit Integration
 
-```
+Cwabs v1.1.0 introduces a new Phishing Menu, powered by Zphisher.
+
+To use this feature:
+
+1. Clone Zphisher into your working directory:
+
+
+
+git clone https://github.com/htr-tech/zphisher
+
+2. Launch Cwabs and select [4] Launch Zphisher from the menu.
+
+
+3. Cwabs will automatically run Zphisher in a subshell.
+
+
+### tools photo📸
+
+![Preview](https://files.catbox.moe/j9zu1i.jpg)
+
+
+Use this feature ethically and only for educational or testing purposes on systems you own or have permission to test.
+
+
+---
+
+Sample CLI Output
+
 Enter website: example.com
-IP Address: 93.184.216.34
-ISP: EDGECAST NETWORKS
-Country: United States
-Organization: Internet Assigned Numbers Authority
-Website is ONLINE
-```
+IP Address      : 93.184.216.34
+Host Name       : example.com
+ISP             : EDGECAST NETWORKS
+Organization    : Internet Assigned Numbers Authority
+Country         : United States
+Website Status  : ONLINE
+
+Scan Results:
+Harmless        : 84
+Malicious       : 1
+Suspicious      : 0
+Undetected      : 3
+
 
 ---
 
-## ðŸ“¸ Screenshot
+License
 
-> *(Tambahkan tangkapan layar terminal Cwabs saat dijalankan)*
+This project is licensed under the MIT License — free to use, modify, and distribute with proper credit.
 
----
-
-## ðŸ“„ License
-
-Licensed under the **MIT License** â€” bebas digunakan, disebarkan, dan dimodifikasi dengan menyertakan atribusi.
 
 ---
 
-## ðŸ¤ Credits
+Credits
 
-Dibuat dengan sepenuh hati oleh:
+Created with care and dedication by:
+Rafael (Mumyz)
+GitHub: @TheRealRafael00
 
-**Rafael (Mumyz)**  
-GitHub: [@TheRealRafael00](https://github.com/TheRealRafael00)
+Your stars, forks, and contributions are greatly appreciated.
+
 
 ---
 
-> â€œTechnology is best when it brings people together.â€ â€“ Matt Mullenweg
+"Technology is best when it brings people together." – Matt Mullenweg
