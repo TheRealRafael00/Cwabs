@@ -127,7 +127,7 @@ Website is ONLINE
 
 📸 Screenshot
 
-> (Add a terminal screenshot here to showcase the tool in action)
+> coming soon
 
 
 
