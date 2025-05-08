@@ -1,142 +1,122 @@
-# Cwabs v1.1.0 — Cyber Web Analysis & phising 🔥
+---
 
-**A modern and powerful Python-based CLI toolkit for website analysis and cybersecurity awareness.**  
-*Carefully crafted by Rafael (Mumyz)*
+<h1 align="center">🕵️‍♂️ Cwabs – Cyber Web Analysis & Basic Scan Tool</h1>
 
-[![Stars](https://img.shields.io/github/stars/TheRealRafael00/Cwabs-?style=for-the-badge)](https://github.com/TheRealRafael00/Cwabs-/stargazers)
-[![Forks](https://img.shields.io/github/forks/TheRealRafael00/Cwabs-?style=for-the-badge)](https://github.com/TheRealRafael00/Cwabs-/network/members)
-[![License](https://img.shields.io/github/license/TheRealRafael00/Cwabs-?style=for-the-badge)](https://github.com/TheRealRafael00/Cwabs-/blob/main/LICENSE)
-![Python](https://img.shields.io/badge/Python-3.8+-blue.svg?style=for-the-badge)
+<p align="center">
+  <img src="https://files.catbox.moe/evoniz.jpg" width="700"/>
+</p>
+
+<p align="center">
+  <b>Version:</b> 1.2.0 &nbsp; | &nbsp;
+  <b>Author:</b> <a href="https://github.com/TheRealRafael00">TheRealRafael00</a> &nbsp; | &nbsp;
+  <b>License:</b> MIT
+</p>
 
 ---
 
-## Overview 😎
+## 🚀 What is Cwabs?
 
-**Cwabs** (Cyber Web Analysis & Basic Scanner) is a sleek and interactive command-line tool built for ethical hackers, cybersecurity students, and IT professionals. This tool empowers users to gather intelligence, analyze security, and perform ethical phishing simulations — all using just a website URL.
+**Cwabs** (Cyber Web Analysis & Basic Scan) is a terminal-based web reconnaissance tool made with Python. It’s designed for OSINT, cybersecurity research, and light penetration testing. Whether you're a beginner learning cybersecurity or a pro doing quick scans, **Cwabs** gets the job done—fast.
 
-Designed for elegance, speed, and ease of use, Cwabs turns your terminal into a mini cyber-intel station.
-
----
-
-## Features👀
-
-- **Website Information Lookup** — Extract detailed metadata such as IP, ISP, hostname, region, timezone, geolocation, and organization info.
-- **Website Safety Scan (VirusTotal)** — Check if a URL is flagged as malicious using your own VirusTotal API key.
-- **Website Status Checker** — Verify whether a site is currently online or offline.
-- **Phishing Toolkit (Zphisher Launcher)** — Seamlessly launch phishing templates via Zphisher directly from Cwabs.
-
-Everything happens in a visually engaging, menu-driven CLI interface — fast, colorful, and beginner-friendly.
+> **Analyze. Simulate. Investigate. Stay ahead.**
 
 ---
 
-## Installation ⚡
+## 🧠 Features
 
-### Step 1: Install Dependencies
+Here’s what **Cwabs v1.2.0** brings to the table:
 
-#### On Termux (Android)
+- ✅ **Website Availability Checker**  
+  Check if a site is online or offline in seconds.
 
-``
-pkg update && pkg upgrade
-pkg install python git neofetch php openssh curl wget -y
-pip install requests ipwhois pytz
-``
+- 🦠 **URL Virus Scan via VirusTotal**  
+  Analyze URLs for potential malware or blacklisting.
 
-On Linux/macOS/Windows
+- 🔁 **Switchable API Support**  
+  Change your VirusTotal API key anytime through the interface.
 
-``
-pip install requests ipwhois pytz
-``
+- 🎣 **Phishing Simulation Module**  
+  Simulate phishing attacks for red team training or educational purposes.
 
-
-### Step 2: Clone This Repository
-
-``
-git clone https://github.com/TheRealRafael00/Cwabs-.git
-cd Cwabs-
-``
-
-### Step 3: Run the Tool
-
-``
-python Cwabs.py
-``
+- 🧩 **Website System Detection**  
+  Identify a site’s CMS (like WordPress, Joomla), server tech, and more.
 
 ---
 
-VirusTotal Setup
+## 🖼️ Tool Preview
 
-To enable safety scans using VirusTotal:
+> Here’s how Cwabs looks in action:
 
-1. Sign up at virustotal.com.
+<p align="center">
+  <img src="https://files.catbox.moe/evoniz.jpg" width="700"/>
+</p>
 
+---
 
-2. Copy your personal API key from your profile dashboard.
+## ⚙️ Installation
 
+Clone this repo and install the requirements:
 
-3. When prompted by Cwabs, paste the API key — it will be securely saved for future use.
+```bash
+git clone https://github.com/TheRealRafael00/Cwabs.git
+cd Cwabs
+pip install -r requirements.txt
 
+Then, just run:
 
+python cwabs.py
 
 
 ---
 
-Phishing Toolkit Integration
+🕹️ How to Use
 
-Cwabs v1.1.0 introduces a new Phishing Menu, powered by Zphisher.
+After launching the tool, you’ll be guided through a clean terminal menu where you can:
 
-To use this feature:
+Input URLs to analyze
 
-1. Launch Cwabs and select [4] Launch Zphisher from the menu.
+Check website status
 
+Detect possible malware
 
-2. Cwabs will automatically run Zphisher in a subshell.
+Simulate phishing (responsibly!)
 
+Detect site systems/technologies
 
-### tools photo📸
+Change VirusTotal API keys dynamically
 
-![Preview](https://files.catbox.moe/j9zu1i.jpg)
-
-
-Use this feature ethically and only for educational or testing purposes on systems you own or have permission to test.
 
 
 ---
 
-Sample CLI Output
+⚠️ Disclaimer
 
-Enter website: example.com
-IP Address      : 93.184.216.34
-Host Name       : example.com
-ISP             : EDGECAST NETWORKS
-Organization    : Internet Assigned Numbers Authority
-Country         : United States
-Website Status  : ONLINE
+> Cwabs is for educational and authorized testing purposes only.
+The developer is not responsible for any misuse of this tool.
+Do not use the phishing simulation on unauthorized targets.
 
-Scan Results:
-Harmless        : 84
-Malicious       : 1
-Suspicious      : 0
-Undetected      : 3
+
 
 
 ---
 
-License
+❤️ Contributing
 
-This project is licensed under the MIT License — free to use, modify, and distribute with proper credit.
+Want to make Cwabs even better? Fork it, improve it, and make a pull request!
 
-
----
-
-Credits
-
-Created with care and dedication by:
-Rafael (Mumyz)
-GitHub: @TheRealRafael00
-
-Your stars, forks, and contributions are greatly appreciated.
+git fork https://github.com/TheRealRafael00/Cwabs.git
 
 
 ---
 
-"Technology is best when it brings people together." – Matt Mullenweg
+📄 License
+
+Licensed under the MIT License.
+See LICENSE for details.
+
+
+---
+
+<p align="center">
+  Built with Python and curiosity for the cyber world.
+</p>
