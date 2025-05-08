@@ -86,16 +86,10 @@ Cwabs v1.1.0 introduces a new Phishing Menu, powered by Zphisher.
 
 To use this feature:
 
-1. Clone Zphisher into your working directory:
+1. Launch Cwabs and select [4] Launch Zphisher from the menu.
 
 
-
-git clone https://github.com/htr-tech/zphisher
-
-2. Launch Cwabs and select [4] Launch Zphisher from the menu.
-
-
-3. Cwabs will automatically run Zphisher in a subshell.
+2. Cwabs will automatically run Zphisher in a subshell.
 
 
 ### tools photo📸
