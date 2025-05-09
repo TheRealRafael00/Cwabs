@@ -154,6 +154,37 @@ git fork https://github.com/TheRealRafael00/Cwabs.git
 Licensed under the MIT License.
 See LICENSE for details.
 
+---
+
+---
+
+## ☕ Support Me on Saweria
+
+[![Donate](https://img.shields.io/badge/Donate-Saweria-orange?style=for-the-badge&logo=buymeacoffee)](https://saweria.co/nevergiveup)
+
+Hi there!  
+I'm a young cybersecurity enthusiast building tools using just a smartphone and Termux.  
+If you find this project useful, consider supporting me — **your donation will help me save up for a laptop** so I can continue learning, coding, and contributing more advanced tools!
+
+**Saweria link:**  
+[https://saweria.co/nevergiveup](https://saweria.co/nevergiveup)
+
+> Donations are fully optional, and every bit of support means a lot to me. Thank you so much!
+
+![Thanks gif](https://media.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif)
+
+---
+
+## 💡 Got Ideas? Contribute Your Thoughts!
+
+[![Email](https://img.shields.io/badge/Suggest%20Feature-privacyisdignity@gmail.com-blue?style=for-the-badge&logo=gmail)](mailto:privacyisdignity@gmail.com)
+
+Do you have a cool idea or a feature suggestion for this tool?  
+I'm always open to improvement — just send your idea to the email above, and I’ll respond as soon as possible!
+
+> Even the smallest idea might turn into the next big feature!
+
+Let’s build something awesome — together!
 
 ---
 
