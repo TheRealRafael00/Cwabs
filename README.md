@@ -96,6 +96,35 @@ Detect site systems/technologies
 
 Change VirusTotal API keys dynamically
 
+---
+
+🔑 How to Get a VirusTotal API Key
+
+To use the VirusTotal scanner, you’ll need a free API key. Just follow these steps:
+
+1. Go to: https://www.virustotal.com
+
+
+2. Tap the ≡ menu icon (top-left corner)
+
+
+3. Click Sign in (use Google for quick access)
+
+
+4. Once logged in, tap the ≡ icon again and select API key
+
+
+5. Swipe right until you see the eye icon
+
+
+6. Tap the eye to reveal your API key
+
+
+7. Copy the key and paste it into the script when prompted
+
+
+
+> ⚠️ Without an API key, some features will not work properly!
 
 
 ---
