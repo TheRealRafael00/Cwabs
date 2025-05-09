@@ -56,32 +56,31 @@ Here’s what **Cwabs v1.2.0** brings to the table:
 ## ⚙️ Installation
 
 Clone this repo and install the requirements:
-``
-pip install requests beautifulsoup4 ipwhois rich pytz``
+Usage
+----
+
+install the package before clone or before run this tools
+
+    pkg update -y && pkg upgrade -y && pkg install -y python openssl whois
+
+then install the requirements
+
+    pip install -r requirements.txt
 
 ---
 
-``
-pkg update && pkg upgrade
-pkg install python
-pkg install openssl
-pkg install whois``
+now clone this repository
+
+    git clone https://github.com/TheRealRafael00/Cwabs-.git
+
+    cd Cwabs-
+
+now you can run this tools
+
+    python Cwabs.py
 
 ---
 
-``
-git clone https://github.com/TheRealRafael00/Cwabs.git``
-``
-cd Cwabs``
-
-Then, just run:
-``
-python cwabs.py``
-
-
----
-
-🕹️ How to Use
 
 After launching the tool, you’ll be guided through a clean terminal menu where you can:
 
