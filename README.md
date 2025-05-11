@@ -1,193 +1,159 @@
 ---
 
-<h1 align="center">🕵️‍♂️ Cwabs – Cyber Web Analysis & Basic Scan Tool</h1>
+<p align="center">
+  <img src="https://files.catbox.moe/3wgx0c.png" alt="Cwabs Logo" width="150"/>
+</p>
+
+<h1 align="center">🛡️ Cwabs v1.3.0 - Cyber Web & Basic Scanner</h1>
+
+<p align="center"><strong>
+Cwabs stands for <em>Cyber Web Analysis & Basic Scan</em> — a powerful terminal-based cybersecurity toolkit built for mobile penetration testers using Termux.
+</strong></p>
 
 <p align="center">
-  <img src="https://files.catbox.moe/3wgx0c.png" width="700"/>
+  <img src="https://img.shields.io/badge/Version-1.3.0-blue.svg" />
+  <img src="https://img.shields.io/badge/Python-3.10+-blue.svg" />
+  <img src="https://img.shields.io/badge/Platform-Termux-green.svg" />
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg" />
+  <img src="https://img.shields.io/badge/Made%20with-Love-red.svg" />
+  <img src="https://img.shields.io/badge/Saweria-Donate-orange.svg" />
 </p>
 
 <p align="center">
-  <b>Version:</b> 1.2.0 &nbsp; | &nbsp;
-  <b>Author:</b> <a href="https://github.com/TheRealRafael00">TheRealRafael00</a> &nbsp; | &nbsp;
-  <b>License:</b> MIT
+  <em>A rainbow-powered cybersecurity tool for Termux — features VirusTotal scanning, port detection, encryption, IP lookup, and more.</em>
 </p>
 
----
-
-## 🚀 What is Cwabs?
-
-**Cwabs** (Cyber Web Analysis & Basic Scan) is a terminal-based web reconnaissance tool made with Python. It’s designed for OSINT, cybersecurity research, and light penetration testing. Whether you're a beginner learning cybersecurity or a pro doing quick scans, **Cwabs** gets the job done—fast.
-
-> **Analyze. Simulate. Investigate. Stay ahead.**
-
----
-
-## 🧠 Features
-
-Here’s what **Cwabs v1.2.0** brings to the table:
-
-- ✅ **Website Availability Checker**  
-  Check if a site is online or offline in seconds.
-
-- 🦠 **URL Virus Scan via VirusTotal**  
-  Analyze URLs for potential malware or blacklisting.
-
-- 🔁 **Switchable API Support**  
-  Change your VirusTotal API key anytime through the interface.
-
-- 🎣 **Phishing Simulation Module**  
-  Simulate phishing attacks for red team training or educational purposes.
-
-- 🧩 **Website System Detection**  
-  Identify a site’s CMS (like WordPress, Joomla), server tech, and more.
-
----
-
-## 🖼️ Tool Preview
-
-> Here’s how Cwabs looks in action:
+<p align="center">
+  <img src="https://files.catbox.moe/i9p2oq.jpg" alt="Cwabs Interface Screenshot" width="600"/>
+</p>
 
 <p align="center">
-  <img src="https://files.catbox.moe/evoniz.jpg" width="700"/>
+  <img src="https://media.giphy.com/media/Ll22OhMLAlVDb8UQWe/giphy.gif" alt="Cwabs GIF" width="400"/>
 </p>
 
 ---
 
-## ⚙️ Installation
+## ✨ What's New in v1.3.0
 
-Clone this repo and install the requirements:
-Usage
-----
-
-install the package before clone or before run this tools
-
-    pkg update -y && pkg upgrade -y && pkg install -y python openssl whois
-
-then install the requirements
-
-    pip install -r requirements.txt
+- New **decrypt-file** feature with auto language detection  
+- Improved **VirusTotal integration**  
+- Smarter **port scan results saving**  
+- Colorful **greeting & figlet effects**  
+- Multilingual support updated  
+- Bug fixes & CLI enhancements
 
 ---
 
-now clone this repository
+## ✨ Features
 
-    git clone https://github.com/TheRealRafael00/Cwabs-.git
-
-    cd Cwabs-
-
-now you can run this tools
-
-    python Cwabs.py
+- 🔍 Custom range open port scanner  
+- ☁️ Website & IP lookup with geo info  
+- 🦠 Scan URLs via [VirusTotal](https://www.virustotal.com/) API  
+- 🔐 Encrypt/decrypt files & folders (base64)  
+- 🖥️ Check system and device info  
+- 🗣️ Language toggle (English / Indonesian)  
+- 🌈 Fancy rainbow figlet terminal banner  
+- ❌ Ctrl+C blocker (for safe operations)
 
 ---
 
+## ⚙️ Installation (for Termux)
 
-After launching the tool, you’ll be guided through a clean terminal menu where you can:
+```bash
+# Update packages & install dependencies
+pkg update -y && pkg upgrade -y && pkg install -y python openssl whois
 
-Input URLs to analyze
+# Install Python modules
+pip install -r requirements.txt
 
-Check website status
+# Clone this repository
+git clone https://github.com/TheRealRafael00/Cwabs-.git
 
-Detect possible malware
+# Enter the project folder and run it
+cd Cwabs-
+python Cwabs.py
 
-Simulate phishing (responsibly!)
-
-Detect site systems/technologies
-
-Change VirusTotal API keys dynamically
 
 ---
 
 🔑 How to Get a VirusTotal API Key
 
-To use the VirusTotal scanner, you’ll need a free API key. Just follow these steps:
+You need a free VirusTotal API key to scan URLs:
 
 1. Go to: https://www.virustotal.com
 
 
-2. Tap the ≡ menu icon (top-left corner)
+2. Tap the ≡ menu icon (top-left)
 
 
-3. Click Sign in (use Google for quick access)
+3. Click Sign in (use Google for fast login)
 
 
-4. Once logged in, tap the ≡ icon again and select API key
+4. Tap ≡ again > click API key
 
 
-5. Swipe right until you see the eye icon
+5. Swipe to see the eye icon
 
 
-6. Tap the eye to reveal your API key
+6. Tap the eye icon to reveal your key
 
 
-7. Copy the key and paste it into the script when prompted
-
-
-
-> ⚠️ Without an API key, some features will not work properly!
-
-
----
-
-⚠️ Disclaimer
-
-> Cwabs is for educational and authorized testing purposes only.
-The developer is not responsible for any misuse of this tool.
-Do not use the phishing simulation on unauthorized targets.
+7. Copy and paste it into the app via Settings > 2
 
 
 
 
 ---
 
-❤️ Contributing
+🧪 How to Use
 
-Want to make Cwabs even better? Fork it, improve it, and make a pull request!
+After running the script, you'll see a prompt like this:
 
-git fork https://github.com/TheRealRafael00/Cwabs.git
+╭───≼gw-ganteng•~≽
+╰──╼✠
+
+Here are the available commands:
+
+Command	Description
+
+0 / exit	Exit the app
+1 / help	Show available commands
+2	Change username / language / API key
+3	Scan a URL using VirusTotal
+4	Lookup IP address or domain info
+5	Scan open ports
+6	Encrypt file or folder
+7	View system and network info
+8	Decrypt file from base64
+
+
+
+---
+
+☕ Support Me
+
+If you like this tool and want to support development:
+
+
+https://saweria.co/nevergiveup
 
 
 ---
 
-📄 License
+📬 Contact
 
-Licensed under the MIT License.
-See LICENSE for details.
+Found a bug or want to suggest a new feature?
+Reach out via email:
 
----
+Email: cwabs.tool@proton.me
 
----
-
-## ☕ Support Me on Saweria
-
-[![Donate](https://img.shields.io/badge/Donate-Saweria-orange?style=for-the-badge&logo=buymeacoffee)](https://saweria.co/nevergiveup)
-
-Hi there!  
-I'm a young cybersecurity enthusiast building tools using just a smartphone and Termux.  
-If you find this project useful, consider supporting me — **your donation will help me save up for a laptop** so I can continue learning, coding, and contributing more advanced tools!
-
-**Saweria link:**  
-[https://saweria.co/nevergiveup](https://saweria.co/nevergiveup)
-
-> Donations are fully optional, and every bit of support means a lot to me. Thank you so much!
-
-![Thanks gif](https://media.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif)
 
 ---
 
-## 💡 Got Ideas? Contribute Your Thoughts!
+📝 License
 
-[![Email](https://img.shields.io/badge/Suggest%20Feature-privacyisdignity@gmail.com-blue?style=for-the-badge&logo=gmail)](mailto:privacyisdignity@gmail.com)
+MIT License
+© 2025 TheRealRafael00
 
-Do you have a cool idea or a feature suggestion for this tool?  
-I'm always open to improvement — just send your idea to the email above, and I’ll respond as soon as possible!
-
-> Even the smallest idea might turn into the next big feature!
-
-Let’s build something awesome — together!
 
 ---
-
-<p align="center">
-  Built with Python and curiosity for the cyber world.
-</p>
