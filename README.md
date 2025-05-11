@@ -144,7 +144,7 @@ https://saweria.co/nevergiveup
 Found a bug or want to suggest a new feature?
 Reach out via email:
 
-Email: cwabs.tool@proton.me
+Email: privacyisdignitygmail.com
 
 
 ---
