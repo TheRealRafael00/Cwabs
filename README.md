@@ -61,17 +61,20 @@ Cwabs stands for <em>Cyber Web Analysis & Basic Scan</em> — a powerful termina
 
 
 # Update packages & install dependencies 
-``
-pkg update -y && pkg upgrade -y && pkg install -y python openssl whois ``
+```
+pkg update -y && pkg upgrade -y && pkg install -y python openssl whois
+```
 
 # now clone this repository
-``
+```
 git clone https://github.com/TheRealRafael00/Cwabs-.git
-cd Cwabs- ``
+cd Cwabs-
+```
 
 # now install pip dependencies
-``
-pip install -r requirements.txt ``
+```
+pip install -r requirements.txt
+```
 
 ---
 
@@ -144,7 +147,7 @@ https://saweria.co/nevergiveup
 Found a bug or want to suggest a new feature?
 Reach out via email:
 
-Email: privacyisdignitygmail.com
+[![Gmail Badge](https://img.shields.io/badge/Gmail-privacyisdignity@gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:privacyisdignity@gmail.com)
 
 
 ---
