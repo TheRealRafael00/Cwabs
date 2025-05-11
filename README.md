@@ -59,20 +59,19 @@ Cwabs stands for <em>Cyber Web Analysis & Basic Scan</em> — a powerful termina
 
 ## ⚙️ Installation (for Termux)
 
-```bash
-# Update packages & install dependencies
-pkg update -y && pkg upgrade -y && pkg install -y python openssl whois
 
-# Install Python modules
-pip install -r requirements.txt
+# Update packages & install dependencies 
+``
+pkg update -y && pkg upgrade -y && pkg install -y python openssl whois ``
 
-# Clone this repository
+# now clone this repository
+``
 git clone https://github.com/TheRealRafael00/Cwabs-.git
+cd Cwabs- ``
 
-# Enter the project folder and run it
-cd Cwabs-
-python Cwabs.py
-
+# now install pip dependencies
+``
+pip install -r requirements.txt ``
 
 ---
 
