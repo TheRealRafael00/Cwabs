@@ -68,9 +68,12 @@ pkg update -y && pkg upgrade -y && pkg install -y python openssl whois figlet &&
 # now clone this repository
 ```
 git clone https://github.com/TheRealRafael00/Cwabs-.git
-cd Cwabs-
+mv ~/Cwabs-/Cwabs.py ~/
 ```
-
+# then run the tools 
+```
+python Cwabs.py
+```
 ---
 
 🔑 How to Get a VirusTotal API Key
