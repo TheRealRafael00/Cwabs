@@ -64,6 +64,9 @@ Cwabs stands for <em>Cyber Web Analysis & Basic Scan</em> — a powerful termina
 ```
 pkg update -y && pkg upgrade -y && pkg install -y python openssl whois figlet git && pip install requests pytz termcolor rich
 ```
+```
+termux-setup-storage
+```
 
 # now clone this repository
 ```
