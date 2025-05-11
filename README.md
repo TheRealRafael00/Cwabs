@@ -69,6 +69,7 @@ pkg update -y && pkg upgrade -y && pkg install -y python openssl whois figlet gi
 ```
 git clone https://github.com/TheRealRafael00/Cwabs-.git
 mv ~/Cwabs-/Cwabs.py ~/
+rm -r ~/Cwabs-
 ```
 # then run the tools 
 ```
